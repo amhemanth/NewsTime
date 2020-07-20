@@ -1,0 +1,12 @@
+body{
+    padding:70px;
+}
+#primary{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 55%;
+}
+#primary img{
+    width: 100%;
+}
