@@ -4,7 +4,7 @@ from newsapi import NewsApiClient
 #Views 
 def index(request):
     
-    newsapi = NewsApiClient(api_key='a7dd72a8e05c40c1af55d568704dd140')
+    newsapi = NewsApiClient(api_key='Enter your api key')
     top_headlines = newsapi.get_top_headlines(sources="google-news-in")
 
     toplines = top_headlines['articles']
